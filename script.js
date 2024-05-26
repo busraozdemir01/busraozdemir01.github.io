@@ -1,4 +1,4 @@
-const numbers = [1, 2, 3, 4, 5, 6, 6, 6];
+const numbers = [1, 2, 3, 4, 5, 6, 6, 6, 6, 6];
 const selections = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 , 6:0};
 
 document.getElementById('selectNumberButton').addEventListener('click', function() {
@@ -10,7 +10,7 @@ document.getElementById('selectNumberButton').addEventListener('click', function
 });
 
 function displaySelectedNumber(number) {
-    document.getElementById('selectedNumberDisplay').innerText = `Selected Number: ${number}`;
+    document.getElementById('selectedNumberDisplay').innerText = `Seçilen Sayı: ${number}`;
 }
 
 function updateChart() {
